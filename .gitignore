@@ -1,0 +1,26 @@
+# Variables de entorno - NUNCA subir
+.env
+
+# Entorno virtual
+venv/
+
+# Carpetas de deployment
+deploy/
+*.zip
+
+# Archivos de prueba local
+test_local.py
+test_load.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Power BI
+*.pbix
+
+# VS Code
+.vscode/
+
+response_*.json
