@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 import os
 
-tableau_dir = r'C:\Portfolio\aurum-etl\tableau'
+tableau_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Lee cada CSV
 crypto  = pd.read_csv(os.path.join(tableau_dir, [f for f in os.listdir(tableau_dir) if 'CRYPTO' in f.upper()][0]))
